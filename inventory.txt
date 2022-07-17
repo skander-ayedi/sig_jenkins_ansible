@@ -1,0 +1,2 @@
+[servers]
+ubuntu ansible_host=<Ip_address_of_jenkins_host> # ubuntu is the host machine name  
