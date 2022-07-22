@@ -1,5 +1,5 @@
 ---
- - hosts: ubuntu
+ - hosts: localhost
 
    tasks:
     - name: ensure the jenkins apt repository key is installed
@@ -22,5 +22,4 @@
     - name: ensure jenkins is running
       service:
        name: jenkins
-       state: started
-~                               
+       state: started                               
